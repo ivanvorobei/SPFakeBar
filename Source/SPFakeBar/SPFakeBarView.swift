@@ -32,7 +32,7 @@ open class SPFakeBarView: UIView {
     private var settedHeight: CGFloat = 0
     public var height: CGFloat {
         get {
-            return (self.settedHeight) + (self.addStatusBarHeight ? UIViewController.statusBarHeight : 0)
+            return (self.settedHeight) + (self.addStatusBarHeight ? UIApplication.shared.statusBarFrame.height : 0)
         }
         set {
             self.settedHeight = newValue
@@ -76,8 +76,11 @@ open class SPFakeBarView: UIView {
     var leftButton = UIButton.init()
     var rightButton = UIButton.init()
     
-    private let blurView = UIVisualEffectView.init(style: .extraLight)
-    private let separatorView = UIView()
+    let separatorView = UIView()
+    let blurView: UIVisualEffectView = {
+        let effect = UIBlurEffect(style: .extraLight)
+        return UIVisualEffectView.init(effect: effect)
+    }()
     
     private var titleBottomConstraint: NSLayoutConstraint?
     private var heightConstraint: NSLayoutConstraint?
@@ -108,7 +111,7 @@ open class SPFakeBarView: UIView {
         self.blurView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         
         self.addSubview(self.separatorView)
-        self.separatorView.backgroundColor = UIColor.init(hex: "BFBFBF")
+        self.separatorView.backgroundColor = UIColor.init(red: 191 / 255.0, green: 191 / 255.0, blue: 191 / 255.0, alpha: 1)
         self.separatorView.translatesAutoresizingMaskIntoConstraints = false
         self.separatorView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
         self.separatorView.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
@@ -123,25 +126,27 @@ open class SPFakeBarView: UIView {
         self.titleBottomConstraint?.isActive = true
         
         self.addSubview(self.subtitleLabel)
-        self.subtitleLabel.textColor = UIColor.init(hex: "8E8E92")
-        self.subtitleLabel.font = UIFont.system(weight: .demiBold, size: 13)
+        self.subtitleLabel.textColor = UIColor.init(red: 142 / 255.0, green: 142 / 255.0, blue: 146 / 255.0, alpha: 1)
+        self.subtitleLabel.font = UIFont.systemFont(ofSize: 13, weight: .semibold)
         self.subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
         self.subtitleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16).isActive = true
         self.subtitleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16).isActive = true
         self.subtitleLabel.bottomAnchor.constraint(equalTo: self.titleLabel.topAnchor, constant: 0).isActive = true
         
-        self.leftButton.setTitleColor(self.elementsColor)
+        self.leftButton.setTitleColor(self.elementsColor, for: .normal)
+        self.leftButton.setTitleColor(self.elementsColor.withAlphaComponent(0.7), for: .highlighted)
         self.leftButton.titleLabel?.textAlignment = .left
-        self.leftButton.titleLabel?.font = UIFont.system(weight: .demiBold, size: 16)
+        self.leftButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
         self.leftButton.contentEdgeInsets = UIEdgeInsets(top: 0, left: 17, bottom: 0, right: 0)
         self.addSubview(self.leftButton)
         self.leftButton.translatesAutoresizingMaskIntoConstraints = false
         self.leftButton.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
         self.leftButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -12).isActive = true
         
-        self.rightButton.setTitleColor(self.elementsColor)
+        self.rightButton.setTitleColor(self.elementsColor, for: .normal)
+        self.rightButton.setTitleColor(self.elementsColor.withAlphaComponent(0.7), for: .highlighted)
         self.rightButton.titleLabel?.textAlignment = .right
-        self.rightButton.titleLabel?.font = UIFont.system(weight: .demiBold, size: 17)
+        self.rightButton.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
         self.rightButton.contentEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 16)
         self.addSubview(self.rightButton)
         self.rightButton.translatesAutoresizingMaskIntoConstraints = false
@@ -180,7 +185,7 @@ open class SPFakeBarView: UIView {
     private func updateStyle() {
         switch self.style {
         case .small:
-            if UIViewController.statusBarHeight == 44 {
+            if UIApplication.shared.statusBarFrame.height == 44 {
                 self.height = 88 - 44
                 self.titleBottomConstraint?.constant = -12
             } else {
@@ -188,16 +193,16 @@ open class SPFakeBarView: UIView {
                 self.titleBottomConstraint?.constant = -12
             }
             self.addStatusBarHeight = true
-            self.titleLabel.font = UIFont.system(weight: .demiBold, size: 17)
-            self.titleLabel.setCenterAlignment()
+            self.titleLabel.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
+            self.titleLabel.textAlignment = .center
         case .stork:
             self.height = 66
             self.titleBottomConstraint?.constant = -12
             self.addStatusBarHeight = false
-            self.titleLabel.font = UIFont.system(weight: .demiBold, size: 17)
-            self.titleLabel.setCenterAlignment()
+            self.titleLabel.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
+            self.titleLabel.textAlignment = .center
         case .large:
-            if UIViewController.statusBarHeight == 44 {
+            if UIApplication.shared.statusBarFrame.height == 44 {
                 self.height = 140 - 44
                 self.titleBottomConstraint?.constant = -8
             } else {
@@ -205,7 +210,7 @@ open class SPFakeBarView: UIView {
                 self.titleBottomConstraint?.constant = -4
             }
             self.addStatusBarHeight = true
-            self.titleLabel.font = UIFont.system(weight: .bold, size: 34)
+            self.titleLabel.font = UIFont.systemFont(ofSize: 34, weight: .bold)
             self.titleLabel.textAlignment = .left
             break
         case .noContent:
@@ -235,7 +240,7 @@ extension SPFakeBarView {
             if UINavigationBar.appearance().tintColor != nil {
                 return UINavigationBar.appearance().tintColor
             } else {
-                return SPNativeColors.blue
+                return UIColor.init(red: 0 / 255.0, green: 122 / 255.0, blue: 255 / 255.0, alpha: 1)
             }
         }
         set {
