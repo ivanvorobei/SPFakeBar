@@ -56,7 +56,7 @@ open class SPFakeBarView: UIView {
         }
     }
     
-    var closeButtonPossition: CloseButtonPosition = .none {
+    public var closeButtonPossition: CloseButtonPosition = .none {
         didSet {
             self.leftButton.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .regular)
             self.rightButton.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .regular)
@@ -71,13 +71,13 @@ open class SPFakeBarView: UIView {
         }
     }
     
-    var titleLabel = UILabel.init()
-    var subtitleLabel = UILabel.init()
-    var leftButton = UIButton.init()
-    var rightButton = UIButton.init()
+    public var titleLabel = UILabel.init()
+    public var subtitleLabel = UILabel.init()
+    public var leftButton = UIButton.init()
+    public var rightButton = UIButton.init()
     
-    let separatorView = UIView()
-    let blurView: UIVisualEffectView = {
+    public let separatorView = UIView()
+    public let blurView: UIVisualEffectView = {
         let effect = UIBlurEffect(style: .extraLight)
         return UIVisualEffectView.init(effect: effect)
     }()
@@ -226,7 +226,7 @@ open class SPFakeBarView: UIView {
         self.updateConstraints()
     }
     
-    enum CloseButtonPosition {
+    public enum CloseButtonPosition {
         case left
         case right
         case none
