@@ -1,4 +1,4 @@
-#SPFakeBar
+# SPFakeBar
 
 It pod allow simple added navigation bar and full customize it - height or added custom views.
 
@@ -18,7 +18,7 @@ I have a store where I sell applications and modules for Xcode projects. You can
 Swift 4.2. Ready for use on iOS 10+
 
 ## Integration
-Put `Source/SPStorkController` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
+Put `Source/SPFakeBar` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
 
 Or via CocoaPods:
 ```ruby
