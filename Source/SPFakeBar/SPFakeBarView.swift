@@ -88,7 +88,7 @@ open class SPFakeBarView: UIView {
     private var leadingConstraint: NSLayoutConstraint?
     private var trailingConstraint: NSLayoutConstraint?
     
-    init(style: SPFakeBarNavigationStyle) {
+    public init(style: SPFakeBarNavigationStyle) {
         super.init(frame: CGRect.zero)
         self.style = style
         self.commonInit()
