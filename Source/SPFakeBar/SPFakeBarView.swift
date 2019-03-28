@@ -206,7 +206,7 @@ open class SPFakeBarView: UIView {
                 self.height = 140 - 44
                 self.titleBottomConstraint?.constant = -8
             } else {
-                self.height = 112 - 20
+                self.height = 116 - 20
                 self.titleBottomConstraint?.constant = -4
             }
             self.addStatusBarHeight = true
