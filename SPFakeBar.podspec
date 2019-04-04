@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+
   s.name          = "SPFakeBar"
   s.version       = "1.0.5"
   s.summary       = "Fake navigation bar with full customize"
@@ -14,6 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
 
   s.source_files  = "Source/SPFakeBar/**/*.swift"
+  
 end
 
 
