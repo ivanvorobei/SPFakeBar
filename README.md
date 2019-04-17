@@ -58,10 +58,19 @@ You only need to add a navigation bar to the main view, it will automatically la
 
 Here I would like to offer you my other projects.
 
+### SPLarkController
+Project [SPLarkController](https://github.com/IvanVorobei/SPLarkController) will help you realize the management of your application settings. You can add both buttons and switches. The amount cells is not limited. You can start using project with just two lines of code and easy customization!
+
+<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
+
+You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $300. `With copyright - 4.900$`. Please, see [detailed preview](https://xcode-shop.com/assets/preview/code.mov) with all the features and screens of the application.
+
 ### SPStorkController
 I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController). It is a modal controller like in Mail or Apple Music application. Similar animation and transition. You can see an example of using controller in app [in AppStore](https://itunes.apple.com/app/id1446635818).
 
-<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="500">
+<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
+
+You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price - $200. Please, see [detailed preview](https://xcode-shop.com/assets/preview/debts.mov) or download app [from AppStore](https://itunes.apple.com/app/id1446635818). 
 
 ### SPPermission
 Project [SPPermission](https://github.com/IvanVorobei/SPPermission) for managing permissions with customizable visual effects. Beautiful dialog increases the chance of approval (which is important when we request notification). Simple control of this module saves you hours of development. You can start using project with just two lines of code and easy customization!
