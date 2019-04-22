@@ -63,7 +63,7 @@ Project [SPLarkController](https://github.com/IvanVorobei/SPLarkController) will
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
 
-You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $300. `With copyright - 4.900$`. Please, see [detailed preview](https://xcode-shop.com/assets/preview/code.mov) with all the features and screens of the application.
+You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $450. `With copyright - $4.900`. Please, see [detailed preview](https://xcode-shop.com/assets/preview/code.mov) with all the features and screens of the application.
 
 ### SPStorkController
 I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController). It is a modal controller like in Mail or Apple Music application. Similar animation and transition. You can see an example of using controller in app [in AppStore](https://itunes.apple.com/app/id1446635818).
