@@ -6,7 +6,7 @@ Preview GIF is loading `3mb`. Please, wait.
 
 <img src="https://github.com/IvanVorobei/SPFakeBar/blob/master/Resources/Preview.gif" width="500">
 
-You can download example [from AppStore](https://itunes.apple.com/app/id1446635818) or see [video preview](https://xcode-shop.com/assets/preview/debts.mov). If you want to buy source code of the full app, please go to [xcode-shop.com](https://xcode-shop.com). Price: $200.
+You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore. It apps used `SPStorkController`. If you want to buy source code of this apps, please go to [xcode-shop.com](https://xcode-shop.com).
 
 <img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Shop.svg"/>
 
@@ -58,22 +58,22 @@ You only need to add a navigation bar to the main view, it will automatically la
 
 Here I would like to offer you my other projects.
 
-### SPLarkController
-Project [SPLarkController](https://github.com/IvanVorobei/SPLarkController) will help you realize the management of your application settings. You can add both buttons and switches. The amount cells is not limited. You can start using project with just two lines of code and easy customization!
-
-<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
-
-You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $450. `With copyright - $4.900`. Please, see [detailed preview](https://xcode-shop.com/assets/preview/code.mov) with all the features and screens of the application.
-
 ### SPStorkController
-I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController). It is a modal controller like in Mail or Apple Music application. Similar animation and transition. You can see an example of using controller in app [in AppStore](https://itunes.apple.com/app/id1446635818).
+I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController). It is a modal controller like in Mail or Apple Music application. Similar animation and transition. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore.
 
 <img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
 
-You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price - $200. Please, see [detailed preview](https://xcode-shop.com/assets/preview/debts.mov) or download app [from AppStore](https://itunes.apple.com/app/id1446635818). 
+You can buy source code of this apps on [xcode-shop.com](https://xcode-shop.com).
+
+### SPStorkController
+I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController). It is a modal controller like in Mail or Apple Music application. Similar animation and transition. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore.
+
+<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
+
+You can buy source code of this apps on [xcode-shop.com](https://xcode-shop.com). 
 
 ### SPPermission
-Project [SPPermission](https://github.com/IvanVorobei/SPPermission) for managing permissions with customizable visual effects. Beautiful dialog increases the chance of approval (which is important when we request notification). Simple control of this module saves you hours of development. You can start using project with just two lines of code and easy customization!
+Project [SPPermission](https://github.com/IvanVorobei/SPPermission) for managing permissions with customizable visual effects. Beautiful dialog increases the chance of approval. Simple control of this module saves you hours of development. You can start using project with just two lines of code and easy customization!
 
 <img src="https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Preview.gif" width="500">
 
@@ -81,5 +81,4 @@ Project [SPPermission](https://github.com/IvanVorobei/SPPermission) for managing
 `SPStorkController` is released under the MIT license. Check `LICENSE.md` for details.
 
 ## Contact
-If you need any application or UI to be developed, message me at hello@ivanvorobei.by. I develop iOS apps and create designs, too. I use `swift` for development. To request more functionality, you should create a new issue. 
-Here are my apps in AppStore: [first account](https://itunes.apple.com/us/developer/polina-zubarik/id1434528595) & [second account](https://itunes.apple.com/us/developer/mikalai-varabei/id1435792103).
+If you need any application or UI to be developed, message me at hello@ivanvorobei.by. I develop iOS apps and create designs, too. I use `swift` for development. To request more functionality, you should create a new issue. My personal account with [apps](https://itunes.apple.com/developer/id1446635817).
