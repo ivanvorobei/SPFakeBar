@@ -26,6 +26,7 @@ You may want to add a navigation bar to your modal controller. Since it became i
 
 ```swift
 import UIKit
+import SPFakeBar
 
 class ModalController: UIViewController {
     
