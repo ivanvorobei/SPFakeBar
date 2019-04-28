@@ -2,6 +2,8 @@
 
 Very similar to original Navigation Bar. Full customisable - height, buttons and many other. Used it as simple view. Not support transition and native nack button. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore. It apps used `SPFakeBar`.
 
+### Preview
+
 <img src="https://github.com/IvanVorobei/SPFakeBar/blob/master/Resources/Preview.gif" width="500">
 
 If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
@@ -75,7 +77,7 @@ If you want to **buy source code** of this apps, please, go to [xcode-shop.com](
 
 ### SPLarkController
 
-[SPLarkController](https://github.com/IvanVorobei/SPLarkController) make **settings** for your application. You can add buttons and switches. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.
+[SPLarkController](https://github.com/IvanVorobei/SPLarkController) make **settings screen** for your application. You can add **buttons and switches**. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
 
