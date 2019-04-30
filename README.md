@@ -1,7 +1,6 @@
 # SPFakeBar
 
-Very similar to original Navigation Bar. Full customisable - height, buttons and many other. Used it as simple view. Not support transition and native nack button. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore. It apps used `SPFakeBar`.
-<br>If you like the project, do not forget to **put star ★**
+Very similar to original Navigation Bar. Full customisable - height, buttons and many other. Used it as simple view. Not support transition and native nack button. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore. It apps used `SPFakeBar`. If you like the project, do not forget to **put star ★**
 
 ### Preview
 
@@ -92,7 +91,7 @@ You can download [Code - Learn Swift & Design](https://itunes.apple.com/app/id14
 
 ### Xcode Shop
 
-If you want **buy apps with source code**, you can visit my [xcode-shop.com](xcode-shop.com). Here I am sale apps, modules, 3D elements and other. In applications you can find many cool UI that will be useful for your projects. Also by buying, **you support me** and my free GitHub development.
+If you want **buy apps with source code**, you can visit my [xcode-shop.com](https://xcode-shop.com). Here I am sale apps, modules, 3D elements and other. In applications you can find many cool UI that will be useful for your projects. Also by buying, **you support me** and my free GitHub development.
 
 ## License
 `SPFakeBar` is released under the MIT license. Check `LICENSE.md` for details.
