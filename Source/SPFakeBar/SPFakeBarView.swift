@@ -78,8 +78,13 @@ open class SPFakeBarView: UIView {
     
     public let separatorView = UIView()
     public let blurView: UIVisualEffectView = {
-        let effect = UIBlurEffect(style: .extraLight)
-        return UIVisualEffectView.init(effect: effect)
+        if #available(iOS 13.0, *) {
+            let effect =  UIBlurEffect(style: UIBlurEffect.Style.systemThickMaterial)
+            return UIVisualEffectView.init(effect: effect)
+        } else {
+            let effect = UIBlurEffect(style: .extraLight)
+            return UIVisualEffectView.init(effect: effect)
+        }
     }()
     
     private var titleBottomConstraint: NSLayoutConstraint?
