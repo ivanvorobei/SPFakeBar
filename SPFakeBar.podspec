@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "SPFakeBar"
-  s.version       = "1.0.6"
+  s.version       = "1.0.8"
   s.summary       = "Fake navigation bar with full customize"
   s.homepage      = "https://github.com/IvanVorobei/SPFakeBar"
   s.source        = { :git => "https://github.com/IvanVorobei/SPFakeBar.git", :tag => s.version }
