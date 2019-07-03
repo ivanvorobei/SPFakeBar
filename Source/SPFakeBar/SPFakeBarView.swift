@@ -76,16 +76,9 @@ open class SPFakeBarView: UIView {
     public var leftButton = UIButton.init()
     public var rightButton = UIButton.init()
     
+
     public let separatorView = UIView()
-    public let blurView: UIVisualEffectView = {
-        if #available(iOS 13.0, *) {
-            let effect =  UIBlurEffect(style: UIBlurEffect.Style.systemThickMaterial)
-            return UIVisualEffectView.init(effect: effect)
-        } else {
-            let effect = UIBlurEffect(style: .extraLight)
-            return UIVisualEffectView.init(effect: effect)
-        }
-    }()
+    public var blurView: UIVisualEffectView!
     
     private var titleBottomConstraint: NSLayoutConstraint?
     private var heightConstraint: NSLayoutConstraint?
@@ -108,6 +101,33 @@ open class SPFakeBarView: UIView {
     private func commonInit() {
         self.translatesAutoresizingMaskIntoConstraints = false
         
+        /*
+         REPLACE WITH IT AFTER REALESE iOS 13
+         
+         if #available(iOS 13.0, *) {
+            let effect =  UIBlurEffect(style: UIBlurEffect.Style.systemThickMaterial)
+            return UIVisualEffectView.init(effect: effect)
+         } else {
+            let effect = UIBlurEffect(style: .extraLight)
+            return UIVisualEffectView.init(effect: effect)
+         }
+         
+         */
+        
+        var isDarkMode: Bool {
+            if #available(iOS 12.0, *) {
+                if self.traitCollection.userInterfaceStyle == .dark {
+                    return true
+                } else {
+                    return false
+                }
+            } else {
+                return false
+            }
+        }
+        
+        let effect = UIBlurEffect(style: isDarkMode ? .dark : .extraLight)
+        self.blurView = UIVisualEffectView.init(effect: effect)
         self.addSubview(self.blurView)
         self.blurView.translatesAutoresizingMaskIntoConstraints = false
         self.blurView.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
