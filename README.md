@@ -1,6 +1,6 @@
 # SPFakeBar
 
-<a href="https://itunes.apple.com/app/id1446635818" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SPFakeBar/blob/master/Resources/Preview.gif" width="400"/></a>
+<a href="https://itunes.apple.com/app/id1446635818" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SPFakeBar/blob/master/Resources/Preview.gif" width="380"/></a>
 
 ### About
 
@@ -22,8 +22,6 @@ If you like the project, do not forget to `put star ★` and follow me on GitHub
 - [Requirements](#requirements)
 - [Installation](#installation)
     - [CocoaPods](#cocoapods)
-    - [Carthage](#carthage)
-    - [Swift Package Manager](#swift-package-manager)
     - [Manually](#manually)
 - [Usage](#usage)
 - [Other Projects +gif](#my-projects)
