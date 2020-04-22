@@ -5,15 +5,17 @@
 ### About
 
 
-Very similar to original Navigation Bar. Full customisable - height, buttons and many other. Used it as simple view. Not support transition and native nack button. 
+Very similar to original Navigation Bar. Full customisable - height, buttons and many other. Used it as simple view. Not support transition and native back button. 
 
 You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) app from AppStore. For **buy source code** of app in preview, go to:
 
 [![xcode-shop.com](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/xcode-shop.svg)](https://xcode-shop.com)
 
+
 If you like the project, do not forget to `put star ★` and follow me on GitHub:
 
 [![https://github.com/ivanvorobei](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/follow-me-on-github.svg)](https://github.com/ivanvorobei)
+
 
 ## Navigate
 
