@@ -1,24 +1,31 @@
 # SPFakeBar
 
+<a href="https://itunes.apple.com/app/id1446635818" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SPFakeBar/blob/master/Resources/Preview.gif" width="400"/></a>
+
+### About
+
 Very similar to original Navigation Bar. Full customisable - height, buttons and many other. Used it as simple view. Not support transition and native nack button. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore. It apps used `SPFakeBar`. If you like the project, do not forget to **put star ★**
 
-### Preview
-
-<img src="https://github.com/ivanvorobei/SPFakeBar/blob/master/Resources/Preview.gif" width="440">
-
 If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
+
+If you like the project, do not forget to `put star ★` and follow me on GitHub:
+
+[![https://github.com/ivanvorobei](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/follow-me-on-github.svg)](https://github.com/ivanvorobei)
 
 ## Navigate
 
 - [Requirements](#requirements)
 - [Installation](#installation)
+    - [CocoaPods](#cocoapods)
+    - [Carthage](#carthage)
+    - [Swift Package Manager](#swift-package-manager)
+    - [Manually](#manually)
 - [Usage](#usage)
-- [Other Projects (+gif)](#my-projects)
+- [Other Projects +gif](#my-projects)
     - [SPAlert](#spalert)
     - [SPLarkController](#splarkcontroller)
-    - [SPStorkController](#spstorkcontroller)
     - [SPPermission](#sppermission)
-    - [Xcode Shop](#xcode-shop)
+    - [Awesome iOS UI](https://github.com/ivanvorobei/awesome-ios-ui)
 - [License](#license)
 - [Contact or Order Develop](#contact)
 
@@ -35,6 +42,10 @@ Swift 4.2 & **5.0**. Ready for use on iOS 10+
 ```ruby
 pod 'SPFakeBar'
 ```
+
+### Manually
+
+If you prefer not to use any of the aforementioned dependency managers, you can integrate `SPFakeBar` into your project manually. Put `Source/SPFakeBar` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
 
 ## Usage
 
@@ -68,46 +79,35 @@ You only need to add a navigation bar to the main view, it will automatically la
 
 ## My projects
 
+<img align="left" src="https://github.com/ivanvorobei/SPAlert/blob/master/Assets/Readme/Preview%20-%20Done.gif" width="220"/>
+
 ### SPAlert
 
-Native popup [SPAlert](https://github.com/ivanvorobei/SPAlert) is **similar to Apple Music or Feedback in AppStore** app. Support animations. I tried to repeat Apple alert as much as possible. 
+[SPAlert](https://github.com/ivanvorobei/SPAlert) is **popup from Apple Music & Feedback in AppStore**. Contains `Done` & `Heart` presets. `Done` present with draw path animation. I clone Apple's alerts as much as possible.  
+You can find this alerts in AppStore after feedback, after added song to library in Apple Music. I am also add alert without icon, as simple message.
 
-<p float="left">
-    <img src="https://github.com/ivanvorobei/SPAlert/blob/master/Resources/Preview-Done.gif" width="250">
-    <img src="https://github.com/ivanvorobei/SPAlert/blob/master/Resources/Preview-Heart.gif" width="250">
-    <img src="https://github.com/ivanvorobei/SPAlert/blob/master/Resources/Preview-Message.gif" width="250">
-</p>
+You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) app from AppStore. If you want to **buy source code** of app in preview, please, go to [xcode-shop.com](https://xcode-shop.com).
 
-You can download example app [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) from AppStore. If you want to **buy source code** of example apps, please, go to [xcode-shop.com](https://xcode-shop.com).
+---
+
+<img align="left" src="https://github.com/ivanvorobei/SPLarkController/blob/master/Resources/Preview.gif" width="220"/>
 
 ### SPLarkController
 
-[SPLarkController](https://github.com/ivanvorobei/SPLarkController) make **settings screen** for your application. You can add **buttons and switches**. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.
+[SPLarkController](https://github.com/ivanvorobei/SPLarkController) transition between controllers. Translate to top. Make **settings screen** for application. You can add **buttons and switches**. The amount cells is not limited. You can start using project with just two lines of code and easy customisation. For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller).
 
-<img src="https://github.com/ivanvorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
+You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. If you want to **buy source code** of app this app, please, go to [xcode-shop.com](https://xcode-shop.com).
 
-You can download [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) app, which uses `SPLarkController`. Also you can **buy source code** of this app on [xcode-shop.com](https://xcode-shop.com).
+---
 
-### SPStorkController
-
-[SPStorkController](https://github.com/ivanvorobei/SPStorkController) is very similar to the modal **controller displayed in Apple Music, Podcasts and Mail** apps. Customizable height of view. Check scroll's bounce for more interactive. Simple adding close button and centering arrow indicator. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) app from AppStore.
-
-<img src="https://github.com/ivanvorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
-
-If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
+<img align="left" src="https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Readme/Preview%20-%205.0.jpg" width="220"/>
 
 ### SPPermission
 
-[SPPermission](https://github.com/ivanvorobei/SPPermission) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation. 
+[SPPermission](https://github.com/ivanvorobei/SPPermission) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation.
 
-<img src="https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Preview.gif" width="500">
-
-### Xcode Shop
-
-If you want **buy apps with source code**, you can visit my [xcode-shop.com](https://xcode-shop.com). Here I am sale apps, modules, 3D elements and other. In applications you can find many cool UI that will be useful for your projects. Also by buying, **you support me** and my free GitHub development.
+You can buy example Dialog & Dinamic animations in [xcode-shop.com](https://xcode-shop.com/ui-elements), see [preview](https://xcode-shop.com/assets/preview/dinamic-alert.mov).
 
 ## License
-`SPFakeBar` is released under the MIT license. Check `LICENSE.md` for details.
 
-## Contact
-If you need any application or UI to be developed, message me at hello@ivanvorobei.by or via [telegram](https://t.me/ivanvorobei). I develop iOS apps and designs. I use `swift` for development. To request more functionality, you should create a new issue. You can see my [apps in AppStore](https://itunes.apple.com/developer/id1446635817).
+`SPFakeBar` is released under the MIT license. Check `LICENSE.md` for details.
