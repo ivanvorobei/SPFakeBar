@@ -88,8 +88,15 @@ You can find this alerts in AppStore after feedback, after added song to library
 #### [SPDiffable](https://github.com/ivanvorobei/SPDiffable)
 Apple's diffable API requerid models for each object type. If you want use it in many place, you pass many time to implemenet and get over duplicates codes. This project help you do it elegant with shared models and special cell providers for one-usage models.
 
+#### [Telegram Stikers](https://sparrowcode.by/telegram/stickers)
+You can import stikers for Telegram about iOS Development. Stickers with Xcode elements you know.
+
 ## Russian Community
 
-В телеграм-канале [Код Воробья](https://sparrowcode.by/telegram) пишу о iOS разработке. Видео-туториалы выклыдываю на [YouTube](https://ivanvorobei.by/youtube):
+В телеграм-канале [Код Воробья](https://sparrowcode.by/telegram) пишу о iOS разработке. Видео-туториалы выклыдываю на [YouTube](https://sparrowcode.by/youtube):
 
-[![Tutorials on YouTube](https://cdn.ivanvorobei.by/github/readme/youtube-preview.jpg)](https://ivanvorobei.by/youtube)
+[![Tutorials on YouTube](https://cdn.ivanvorobei.by/github/readme/youtube-preview.jpg)](https://sparrowcode.by/youtube)
+
+[Стикеры в телеграм](https://sparrowcode.by/telegram/stickers) про iOS разработку:
+
+[![Telegram Stikers](https://cdn.ivanvorobei.by/github/readme/telegram-stikers-preview.png)](https://sparrowcode.by/telegram/stickers)
