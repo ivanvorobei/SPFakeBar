@@ -10,8 +10,14 @@ Not support transition and native back button.
 
 If you like the project, don't forget to `put star ★` and follow me on GitHub:
 
-[![https://github.com/ivanvorobei](https://github.com/ivanvorobei/Readme/blob/main/Buttons/follow-me-ivanvorobei.svg)](https://github.com/ivanvorobei)
-
+<p float="left">
+    <a href="https://github.com/ivanvorobei">
+        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/follow-me-ivanvorobei.svg">
+    </a>
+    <a href="https://opensource.ivanvorobei.by">
+        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/more-libraries.svg">
+    </a>
+</p>
 
 ## Navigate
 
@@ -78,19 +84,32 @@ You only need to add a navigation bar to the main view, it will automatically la
 
 ## Other Projects
 
-#### [SPPermissions](https://github.com/ivanvorobei/SPPermissions)
-Allow request permissions with native dialog UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation.
+I love being helpful. Here I have provided a list of libraries that I keep up to date. For see `video previews` of libraries without install open [opensource.ivanvorobei.by](https://opensource.ivanvorobei.by) website.<br>
+I have libraries with native interface and managing permissions. Also available pack of useful extensions for boost your development process.
 
-#### [SPAlert](https://github.com/ivanvorobei/SPAlert)
-It is popup from Apple Music & Feedback in AppStore. Contains Done & Heart presets. Done present with draw path animation. I clone Apple's alerts as much as possible.
-You can find this alerts in AppStore after feedback, after added song to library in Apple Music. I am also add alert without icon, as simple message.
-
-#### [SPDiffable](https://github.com/ivanvorobei/SPDiffable)
-Apple's diffable API requerid models for each object type. If you want use it in many place, you pass many time to implemenet and get over duplicates codes. This project help you do it elegant with shared models and special cell providers for one-usage models.
+<p float="left">
+    <a href="https://opensource.ivanvorobei.by">
+        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/more-libraries.svg">
+    </a>
+</p>
 
 ## Russian Community
 
-В телеграм-канале [Код Воробья](https://sparrowcode.by/telegram) пишу о iOS разработке. Помощь можно найти в [нашем чате](https://sparrowcode.by/telegram/chat).
+Веду каналы об iOS разработке. Один с туториалами и новостями, другой с обзором библиотек.<br>
+Со сложной задачей помогут в чате.
+
+<p float="left">
+    <a href="https://sparrowcode.by/telegram/channel">
+        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/russian-community-tutorials.svg">
+    </a>
+    <a href="https://sparrowcode.by/telegram/libs">
+        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/russian-community-libraries.svg">
+    </a>
+    <a href="https://sparrowcode.by/telegram/chat">
+        <img src="https://github.com/ivanvorobei/Readme/blob/main/Buttons/russian-community-chat.svg">
+    </a>
+</p>
+
 Видео-туториалы выклыдываю на [YouTube](https://sparrowcode.by/youtube):
 
 [![Tutorials on YouTube](https://cdn.ivanvorobei.by/github/readme/youtube-preview.jpg)](https://sparrowcode.by/youtube)
